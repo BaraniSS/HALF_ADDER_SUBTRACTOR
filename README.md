@@ -27,6 +27,9 @@ Figure -01 HALF ADDER
 The half-subtractor is a combinational circuit which is used to perform subtraction of two bits. It has two inputs, X (minuend) and Y (subtrahend) and two outputs D (difference) and B (borrow). To perform x - y, we have to check the relative magnitudes of x and y. If x ;;, y, we have three possibilities: 0 - 0 = 0, 1 - 0 = 1, and 1 - I = 0. The result is called the difference bit. If x < y, we have 0 - I, and it is necessary to borrow a 1 from the next higher stage. The I borrowed from the next higher stage adds 2 to the minuend bit, just as in the decimal system a borrow adds 10 to a minuend digit. With the minuend equal to 2, the difference becomes 2 - I = 1. The half-subtractor needs two outputs. One output generates the difference and will be designated by the symbol D. The second output, designated B for borrow, generates the binary signal that informs the next stage that a I has been borrowed. 
 
 Diff = A’B+AB’ =A ⊕ B
+
+![Screenshot 2024-11-26 185228](https://github.com/user-attachments/assets/3490a432-44b0-45d6-9b7b-82cbf0db2368)
+
 Borrow = A’B
 
  ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
@@ -52,10 +55,24 @@ Figure -02 HALF Subtractor
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by: BARANI S S:2490119
+
+![Screenshot 2024-11-26 185243](https://github.com/user-attachments/assets/1c1b5036-6789-4f79-924e-1c293ddbb7f6)
+
 
 **RTL Schematic**
 
+![Screenshot 2024-11-26 185253](https://github.com/user-attachments/assets/65a005af-c4ef-4693-b6e4-012fc8ed06f8)
+
+
 **Output/TIMING Waveform**
 
+![Screenshot 2024-11-26 185305](https://github.com/user-attachments/assets/a11a32de-11a8-471c-bede-0560334f54d6)
+
+
 **Result:**
+
+Thus the Half Adder and Half Subtractor circuits are designed and the truth
+tables is verified using Quartus software.
+
+
